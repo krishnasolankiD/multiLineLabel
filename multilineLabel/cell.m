@@ -13,6 +13,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    self.selectionStyle = UITableViewCellEditingStyleNone;
     _lblMultiline.numberOfLines = 0;
     _lblMultiline.preferredMaxLayoutWidth = _lblMultiline.frame.size.width;
     _lblMultiline.lineBreakMode = NSLineBreakByWordWrapping;
